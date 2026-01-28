@@ -1,0 +1,36 @@
+{
+  "name": "employeeauthapi",
+  "version": "1.0.0",
+  "description": "A secure REST API built with Fastify, PostgreSQL, and JWT authentication",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fastify",
+    "jwt",
+    "authentication",
+    "postgresql",
+    "bcrypt",
+    "rest-api",
+    "nodejs"
+  ],
+  "author": "Hemamalini K",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/username/modern-js-api"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {
+    "@fastify/jwt": "^10.0.0",
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.2.3",
+    "fastify": "^5.7.1",
+    "pg": "^8.17.2"
+  }
+}
